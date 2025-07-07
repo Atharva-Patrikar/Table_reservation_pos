@@ -1,0 +1,109 @@
+.kot-tab {
+  padding: 8px 18px;
+  border: none;
+  background: #f3f4f6;
+  color: #333;
+  border-radius: 4px;
+  margin-right: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s, color 0.2s;
+}
+.kot-tab.active {
+  background: #e53e3e;
+  color: #fff;
+}
+.kot-screen {
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+.kot-top-tab {
+  padding: 12px 28px;
+  border: none;
+  background: #fff;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: background 0.2s, color 0.2s, border-bottom 0.2s;
+}
+.kot-top-tab.active {
+  background: #fff;
+  color: #e53e3e;
+  border-bottom: 2px solid #e53e3e;
+}
+.kot-grid {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  flex-wrap: wrap;
+}
+.kot-card {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 8px #0001;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+.kot-card-header {
+  background: #ffb300;
+  color: #fff;
+  padding: 12px 16px;
+  border-radius: 8px 8px 0 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  font-size: 15px;
+}
+.kot-card-body {
+  padding: 12px 16px;
+}
+.kot-card-body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.kot-card-body th, .kot-card-body td {
+  text-align: left;
+  padding: 4px 0;
+  font-size: 15px;
+}
+.kot-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-top: 1px solid #eee;
+}
+.kot-action-btn {
+  background: #fff;
+  border: 1px solid #e53e3e;
+  color: #e53e3e;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.kot-ready-btn {
+  background: #e53e3e;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.kot-table-type {
+  color: #fff;
+  background: #ffb300;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+.kot-no, .kot-time {
+  color: #fff;
+  font-size: 13px;
+}

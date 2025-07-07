@@ -1,0 +1,24 @@
+/* src/components/menu/MenuGrid.css */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 16px;
+  }
+  
+  .menu-item {
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    background: #fff;
+  }
+  
+  .menu-item:hover {
+    background: #f8f8f8;
+  }
+  
+  .favorite {
+    color: gold;
+  }
+  

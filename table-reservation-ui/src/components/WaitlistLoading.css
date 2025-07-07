@@ -1,0 +1,111 @@
+.waitlist-loading {
+    padding: 16px;
+  }
+  
+  .waitlist-header {
+    margin-bottom: 24px;
+  }
+  
+  .waitlist-header h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+  }
+  
+  .waitlist-stats {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .stat {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--primary-color);
+  }
+  
+  .stat-label {
+    font-size: 14px;
+    color: var(--gray-600);
+  }
+  
+  .waitlist-entries {
+    display: grid;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  
+  .waitlist-card {
+    padding: 16px;
+  }
+  
+  .waitlist-card-header {
+    margin-bottom: 12px;
+  }
+  
+  .waitlist-card-header h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  
+  .waitlist-phone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--gray-600);
+    font-size: 14px;
+  }
+  
+  .waitlist-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 16px;
+  }
+  
+  .waitlist-guests,
+  .waitlist-time,
+  .waitlist-estimate {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--gray-700);
+    font-size: 14px;
+  }
+  
+  .waitlist-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .waitlist-footer {
+    margin-top: 24px;
+  }
+  
+  .add-to-waitlist-btn {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .waitlist-stats {
+      flex-direction: column;
+      gap: 12px;
+    }
+  
+    .stat {
+      flex-direction: row;
+      align-items: center;
+      gap: 8px;
+    }
+  
+    .stat-value {
+      font-size: 18px;
+    }
+  }
+  
+  

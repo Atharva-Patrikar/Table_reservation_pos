@@ -1,0 +1,127 @@
+.reservation-panel {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 16px;
+    background-color: white;
+    border-left: 1px solid var(--border-color);
+    width: 320px;
+  }
+  
+  .reservation-panel-header {
+    margin-bottom: 16px;
+  }
+  
+  .reservation-panel-header h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+  
+  .reservation-search {
+    margin-bottom: 16px;
+  }
+  
+  .reservation-search-input {
+    margin-bottom: 12px;
+  }
+  
+  .date-selector {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .date-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+  }
+  
+  .reservations-list {
+    flex: 1;
+    margin-bottom: 16px;
+  }
+  
+  .reservation-card {
+    margin-bottom: 12px;
+  }
+  
+  .reservation-card-header {
+    margin-bottom: 12px;
+  }
+  
+  .reservation-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
+  }
+  
+  .reservation-name h3 {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .reservation-status {
+    font-size: 12px;
+    padding: 2px 8px;
+    border-radius: 12px;
+    background-color: var(--gray-200);
+  }
+  
+  .reservation-status.booked {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  
+  .reservation-status.confirmed {
+    background-color: var(--success-color);
+    color: white;
+  }
+  
+  .reservation-phone {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--gray-600);
+    font-size: 14px;
+  }
+  
+  .reservation-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .reservation-date,
+  .reservation-time,
+  .reservation-guests {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--gray-700);
+    font-size: 14px;
+  }
+  
+  .reservation-actions {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .reservation-panel-footer {
+    margin-top: auto;
+  }
+  
+  .new-reservation-btn {
+    width: 100%;
+  }
+  
+  @media (max-width: 768px) {
+    .reservation-panel {
+      width: 100%;
+      border-left: none;
+      border-top: 1px solid var(--border-color);
+    }
+  }
+  
+  
